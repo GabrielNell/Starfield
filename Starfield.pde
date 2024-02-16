@@ -21,7 +21,6 @@ void setup() {
 void draw() {
   background(0);
   fill(255);
-  // text("ship speed: " + shipSpeed, width/2-35, 20);  
   for (Star star : galaxy) {
     star.show();
     star.move();
