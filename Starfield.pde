@@ -4,7 +4,7 @@ int numOfStars = 3000;
 int numOfUFOs = 300;
 
 void setup() {
-  size(1200, 700);
+  size(1440, 820);
   background(0);
   noStroke();
   galaxy = new ArrayList<Star>();
