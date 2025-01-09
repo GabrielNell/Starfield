@@ -1,10 +1,10 @@
 ArrayList<Star> galaxy; 
 double shipSpeed = 1; 
 int numOfStars = 3000;
-int numOfUFOs = 300;
+int numOfUFOs = 100;
 
 void setup() {
-  size(1440, 820);
+  size(960, 640);
   background(0);
   noStroke();
   galaxy = new ArrayList<Star>();
